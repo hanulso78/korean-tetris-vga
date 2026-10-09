@@ -11,6 +11,18 @@ djgpp 로 빌드하는 32비트 DPMI 프로그램입니다.
 | `KOREA.EXE` | 원판 그대로. 흑백 640x400 화면, PC 스피커 소리 |
 | `KOREAVGA.EXE` | 256색 스프라이트, 애드립(OPL2) 음악, 부드러운 블록 움직임 |
 
+## 화면
+
+| 첫 화면 (256색) | 게임 (256색) |
+| --- | --- |
+| ![첫 화면](docs/title_vga.png) | ![게임 화면](docs/play_vga.png) |
+
+| 스테이지 편집기 (256색) | 첫 화면 (원판 흑백) |
+| --- | --- |
+| ![편집기](docs/editor_vga.png) | ![원판 첫 화면](docs/title_mono.png) |
+
+DOSBox 에서 돌려 `tools/shot.py` 로 찍은 것입니다.
+
 ## 게임
 
 떨어지는 블록으로 줄을 채워 지우는 테트리스 형식입니다.
@@ -57,6 +69,7 @@ make -f korea.mak vga    # KOREAVGA.EXE
 | `tools/mkspr256.py` | `KOREA256.SPR` (256색 스프라이트와 팔레트) 만들기 |
 | `tools/mkmusic.py` | 애드립 곡과 효과음을 `SOUND.DAT` 로 묶기 |
 | `tools/mkrelease.py` | `release/` 배포 폴더 만들기 |
+| `tools/shot.py` | DOSBox 로 돌려 `docs/` 에 화면 찍기 |
 
 `KOREA.PTN` (16x16 그림 256개) 과 `KOREA.STG` (스테이지 100개) 는 1990년 원본 파일입니다.
 
