@@ -15,7 +15,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.normpath(os.path.join(HERE, '..'))
 OUT = os.path.join(SRC, 'release')
 
-README_MONO = """코리아 (KOREA) - 1990년 원판 + VGA
+README_MONO = """코리안 테트리스 (KOREAN TETRIS) - 1990년 원판 + VGA
 
   1990년 PARK S.G. 님이 터보 C 로 만든 KOREA.EXE 를 역어셈블해서
   C 로 옮긴 것입니다.  게임 규칙, 스테이지 100개, 소리, 속도는 원판
@@ -64,7 +64,7 @@ README_MONO = """코리아 (KOREA) - 1990년 원판 + VGA
   KOREA.STG      스테이지 100개 (1990년 원본 파일, 편집기로 고칠 수 있습니다)
 """
 
-README_VGA = """코리아 (KOREA) - 256색 개선판
+README_VGA = """코리안 테트리스 (KOREAN TETRIS) - 256색 개선판
 
   1990년 PARK S.G. 님이 터보 C 로 만든 KOREA.EXE 를 C 로 옮기고
   화면과 소리를 새로 꾸민 판입니다.  게임 규칙과 스테이지 100개는
